@@ -109,3 +109,17 @@ Se conecta el Arduino a los puertos donde recibe la velocidad de frecuencia y la
 https://github.com/user-attachments/assets/67f8eceb-01b8-4b50-9c38-bdf646b933ad
 
 
+## Conclusiones.
+
+Luis Fernando Duarte Reséndiz
+El control preciso de la dirección y velocidad de un motor a pasos es posible mediante la programación de un Arduino, permitiendo realizar movimientos específicos según las necesidades del sistema. La utilización de una frecuencia común para ambas direcciones de giro simplifica el diseño y asegura uniformidad en el comportamiento del motor.
+
+Mauricio Alberto Gómez Arroyo
+La implementación de señales PWM, junto con la correcta configuración de pines de salida en el Arduino, facilita el manejo de motores a pasos. En este caso, el uso de 800 pulsos por revolución y una frecuencia de 1600 Hz permitió controlar con éxito los movimientos requeridos, cumpliendo con las especificaciones del proyecto.
+
+Diego Brandon Guzmán Sierra
+El cálculo previo de la frecuencia y los pulsos necesarios es esencial para lograr un control eficiente y preciso del motor. Este enfoque evita errores durante la ejecución del código y garantiza que los tiempos de respuesta y los giros del motor cumplan con las especificaciones programadas.
+
+Bryan Hiadim Vera Hernández
+Este proyecto demostró que, con una configuración adecuada y una programación precisa, es posible controlar un motor a pasos con gran precisión utilizando hardware de bajo costo como el Arduino. Además, el uso de una misma frecuencia para giros en ambos sentidos optimiza el control, reduciendo la complejidad del código sin afectar el rendimiento del sistema.
+
