@@ -26,7 +26,7 @@ Frecuencia= (2 revoluciones * 800 pulsos/ revolución) / 1 Segundo= 1600 Hz.
 Por lo tanto, en nuestro modelo se facilita el control, ya que se requiere la misma frecuencia en ambos sentidos.
 Una vez realizados los cálculos, pasamos a la explicación del código obtenido, cuyo propósito es controlar la dirección y la frecuencia de rotación del motor a pasos.
 
-´´´plaintext
+```plaintext
 
 // Definir el pin para el LED y el pin PWM
 const int ledPin = 13;      // Pin para cambio de jiro
@@ -89,4 +89,23 @@ void loop() {
 }
 
 
-´´´
+```
+Explicación del código:
+1.	Definición de los pines:
+o	ledPin es el pin 13, usado para indicar el cambio de giro (a través de encender o apagar un LED).
+o	pwmPin es el pin 9, utilizado para generar la señal PWM (modulación por ancho de pulso) que controla la velocidad y el giro del motor.
+2.	Configuración inicial: En la función setup(), los pines ledPin y pwmPin se configuran como salidas para controlar las señales de dirección y frecuencia.
+3.	Ciclo principal (loop()):
+o	Giro hacia la derecha: Se envía una señal baja en ledPin para indicar el giro hacia la derecha. Luego, se genera la señal PWM con 800 pulsos, lo que corresponde a una revolución del motor. La frecuencia se ajusta usando el delayMicroseconds().
+o	Pausa: Después de cada giro, se introduce un retardo de 1 segundo (delay(1000)).
+o	Giro hacia la izquierda: Se envía una señal alta en ledPin para indicar el giro hacia la izquierda, repitiendo el proceso de generar 800 pulsos.
+En ambos giros, se usa la misma frecuencia de 1600 Hz, ya que los cálculos previamente realizados muestran que tanto para el giro hacia la derecha como hacia la izquierda se requiere la misma frecuencia.
+
+## Ejecución.
+Se conecta el Arduino a los puertos donde recibe la velocidad de frecuencia y la dirección de jiro y se ejecuta el código obteniendo los resultados deseados.
+
+
+
+https://github.com/user-attachments/assets/67f8eceb-01b8-4b50-9c38-bdf646b933ad
+
+
