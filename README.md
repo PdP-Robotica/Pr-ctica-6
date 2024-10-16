@@ -26,7 +26,7 @@ Frecuencia= (2 revoluciones * 800 pulsos/ revolución) / 1 Segundo= 1600 Hz.
 Por lo tanto, en nuestro modelo se facilita el control, ya que se requiere la misma frecuencia en ambos sentidos.
 Una vez realizados los cálculos, pasamos a la explicación del código obtenido, cuyo propósito es controlar la dirección y la frecuencia de rotación del motor a pasos.
 
-'''plaintext
+´´´plaintext
 
 // Definir el pin para el LED y el pin PWM
 const int ledPin = 13;      // Pin para cambio de jiro
@@ -89,4 +89,4 @@ void loop() {
 }
 
 
-'''
+´´´
