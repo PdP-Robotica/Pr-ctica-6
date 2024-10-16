@@ -1,10 +1,14 @@
 # Práctica-6
 
 ## Integrantes:
-•	Luis Fernando Duarte Reséndiz
-•	Mauricio Alberto Gómez Arroyo
-•	Diego Brandon Guzmán Sierra
-•	Bryan Hiadim Vera Hernández
+•	Luis Fernando Duarte Reséndiz.
+
+•	Mauricio Alberto Gómez Arroyo.
+
+•	Diego Brandon Guzmán Sierra.
+
+•	Bryan Hiadim Vera Hernández.
+
 
 
 ## Introducción.
